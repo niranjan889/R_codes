@@ -1,7 +1,7 @@
 library(caret)
 library(FSelector)
 library(ROCR)
-setwd('/home/vineeth/Documents/spotify_analysis/codes')
+setwd('/home/hadoop/Documents/spotify_analysis/codes')
 data<-read.table('data/user_song_combined_data1.csv',sep=',',header=TRUE)
 data$Class[data$Class==1]<-'T'
 data$Class[data$Class==0]<-'F'
